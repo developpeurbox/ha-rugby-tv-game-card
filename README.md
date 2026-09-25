@@ -7,15 +7,12 @@
 
 [![HACS Action](https://github.com/developpeurbox/ha-rugby-tv-game-card/actions/workflows/hacs.yml/badge.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-rugby-tv-game-card/actions/workflows/hacs.yml)  
 
-
-
-
 **Carte Lovelace personnalisée pour afficher les matchs Rugby TV** avec les logos des équipes, la ou les chaînes TV et l'heure du coup d'envoi.
 
 🔗 **Pour la création des capteurs (sensors)**, consultez [ce dépôt](https://github.com/developpeurbox/hass-rugby-tv/blob/main/README.md).
 
 
-![Exemple Rugby Game Card](/doc/images/example2.jpg "Exemple d'affichage")
+![Exemple Rugby Game Card](/doc/images/example.png "Exemple d'affichage")
 
 
 ---
@@ -72,7 +69,7 @@ Vous pouvez désormais personnaliser l'apparence du pied de page (*footer*) dire
 
 Lorsque aucun match n'est trouvé pour l'équipe configurée (match passé ou calendrier vide), la carte affiche automatiquement un état simplifié : le logo de l'équipe, son nom, et un message d'information.
 
-![Carte aucun match](/doc/images/example_no_game.jpg "Affichage sans match prévu")
+![Carte aucun match](/doc/images/no_game.png "Affichage sans match prévu")
 
 > **Aucun match prévu prochainement** s'affiche à la place des informations de diffusion habituelles. Dès qu'un prochain match est disponible dans le capteur, la carte reprend son affichage normal automatiquement.
 
