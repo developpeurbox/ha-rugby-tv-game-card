@@ -1,10 +1,10 @@
 /* ========================================================
-   Rugby TV Game Card — v0.0.2
+   Rugby TV Game Card — v0.0.3
    Carte Lovelace pour les sensors de l'intégration rugby_tv
    (TOP 14 / PRO D2 — https://github.com/developpeurbox/hass-rugby-tv)
    ======================================================== */
 
-const RUGBY_TV_GAME_CARD_VERSION = "v0.0.2";
+const RUGBY_TV_GAME_CARD_VERSION = "v0.0.3";
 
 class RugbyTvGameCard extends HTMLElement {
 
@@ -245,6 +245,7 @@ class RugbyTvGameCard extends HTMLElement {
                      
                        </div>
                      ` : `<div class="chaine">${state.state || ""}</div>`}
+                    <div class="heure">${heure}</div>
                   </div>
                   <div class="team-block">
                     <div class="team-logo-wrap">
