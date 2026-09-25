@@ -10,9 +10,9 @@
 
 
 
-**Carte Lovelace personnalisée pour afficher les matchs Footao** avec les logos des équipes, la chaîne TV et l'heure du coup d'envoi.
+**Carte Lovelace personnalisée pour afficher les matchs Rugby TV** avec les logos des équipes, la ou les chaînes TV et l'heure du coup d'envoi.
 
-🔗 **Pour la création des capteurs (sensors)**, consultez [ce dépôt](https://github.com/developpeurbox/hass-footao/blob/main/README.md).
+🔗 **Pour la création des capteurs (sensors)**, consultez [ce dépôt](https://github.com/developpeurbox/hass-rugby-tv/blob/main/README.md).
 
 
 ![Exemple Rugby Game Card](/doc/images/example2.jpg "Exemple d'affichage")
