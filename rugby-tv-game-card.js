@@ -173,8 +173,8 @@ class RugbyTvGameCard extends HTMLElement {
           #${uid} .rug-footer {
             background: var(--rugby-footer-bg, rgba(0,0,0,0.45));
             border-top: 1px solid rgba(255,255,255,.07);
-            padding: 11px 16px;
-            display: flex; align-items: center; justify-content: center; gap: 8px;
+            padding: 9px 16px 11px;
+            display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
             color: var(--rugby-footer-color, #e63946);
             font-size: 16px; font-weight: 600; letter-spacing: .3px;
           }
@@ -261,7 +261,7 @@ class RugbyTvGameCard extends HTMLElement {
             ${date ? `
               <div class="rug-footer">
                 <span>${date}</span>
-                ${lienMatch ? `<span class="rug-link-hint">· Feuille de match ↗</span>` : ""}
+                ${lienMatch ? `<span class="rug-link-hint">Feuille de match ↗</span>` : ""}
               </div>
             ` : ""}
           </div>
