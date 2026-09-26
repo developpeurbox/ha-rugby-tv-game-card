@@ -4,7 +4,7 @@
    (TOP 14 / PRO D2 — https://github.com/developpeurbox/hass-rugby-tv)
    ======================================================== */
 
-const RUGBY_TV_GAME_CARD_VERSION = "v0.0.5";
+const RUGBY_TV_GAME_CARD_VERSION = "v0.0.4";
 
 class RugbyTvGameCard extends HTMLElement {
 
