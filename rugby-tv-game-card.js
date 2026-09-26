@@ -1,10 +1,10 @@
 /* ========================================================
-   Rugby TV Game Card — v0.0.3
+   Rugby TV Game Card
    Carte Lovelace pour les sensors de l'intégration rugby_tv
    (TOP 14 / PRO D2 — https://github.com/developpeurbox/hass-rugby-tv)
    ======================================================== */
 
-const RUGBY_TV_GAME_CARD_VERSION = "v0.0.3";
+const RUGBY_TV_GAME_CARD_VERSION = "v0.0.5";
 
 class RugbyTvGameCard extends HTMLElement {
 
@@ -303,21 +303,24 @@ class RugbyTvGameCardEditor extends HTMLElement {
     super();
     this._config = {};
     this._hass   = null;
+    this._built  = false;
     this.attachShadow({ mode: "open" });
   }
 
   set hass(hass) {
     this._hass = hass;
-    this._render();
+    if (!this._built) this._render();
   }
 
   setConfig(config) {
+    const entityChanged = (config?.entity || "") !== (this._config?.entity || "");
     this._config = config || {};
-    this._render();
+    if (!this._built || entityChanged) this._render();
   }
 
   _render() {
     if (!this._hass) return;
+    this._built = true;
 
     const entities = Object.keys(this._hass.states)
       .filter(e => e.startsWith("sensor.rugby_"))
