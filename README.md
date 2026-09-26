@@ -75,7 +75,7 @@ Lorsque aucun match n'est trouvé pour l'équipe configurée (match passé ou ca
 
 ---
 ## 💬 **Communauté & Support**
-🗣️ **Forum Home Assistant** : [Discuter ici](https://community.home-assistant.io/)
+🗣️ **Forum Home Assistant** : [Discuter ici](https://forum.hacf.fr/t/carte-lovelace-integration-rugby-tv-le-programme-tv-arrive-dans-home-assistant/84193)
 
 ---
 
