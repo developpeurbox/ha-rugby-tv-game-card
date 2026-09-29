@@ -1,15 +1,15 @@
 # 🏆 **Rugby TV Game Card** 📺
 [![PayPal](https://img.shields.io/badge/paypal-me-blue.svg?style=for-the-badge&color=purple&logo=paypal&logoColor=ccc&link=https%3A%2F%2Fpaypal.me%2hlaissus/5)](https://paypal.me/hlaissus/5)
-[![GitHub Release]( https://img.shields.io/github/v/release/developpeurbox/ha-rugby-tv-game-card?style=for-the-badge)](https://github.com/developpeurbox/ha-rugby-tv-game-card/releases)
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
-[![Community Forum]( https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge)](https://community.home-assistant.io)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-rugby-tv-game-card/blob/main/LICENSE)
+[![GitHub Release]( https://img.shields.io/github/v/release/developpeurbox/hass-rugby-tv?style=for-the-badge&color=blue)](https://github.com/developpeurbox/hass-rugby-tv-game-card/releases)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge&color=blue)](https://github.com/hacs/integration)
+[![Community Forum]( https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge&color=pink)](https://forum.hacf.fr/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/developpeurbox/hass-rugby-tv-game-card/blob/main/LICENSE)
 
 [![HACS Action](https://github.com/developpeurbox/ha-rugby-tv-game-card/actions/workflows/hacs.yml/badge.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-rugby-tv-game-card/actions/workflows/hacs.yml)  
 
 **Carte Lovelace personnalisée pour afficher les matchs Rugby TV** avec les logos des équipes, la ou les chaînes TV et l'heure du coup d'envoi.
 
-🔗 **Pour la création des capteurs (sensors)**, consultez [ce dépôt](https://github.com/developpeurbox/hass-rugby-tv/blob/main/README.md).
+🔗 **Pour la création des capteurs (sensors)**, consultez [ce dépôt](https://github.com/developpeurbox/hass-rugby-tv).
 
 
 ![Exemple Rugby Game Card](/doc/images/example.png "Exemple d'affichage")
@@ -78,21 +78,3 @@ Lorsque aucun match n'est trouvé pour l'équipe configurée (match passé ou ca
 🗣️ **Forum Home Assistant** : [Discuter ici](https://forum.hacf.fr/t/carte-lovelace-integration-rugby-tv-le-programme-tv-arrive-dans-home-assistant/84193)
 
 ---
-
-
-[releases-shield]: https://img.shields.io/github/v/release/developpeurbox/ha-rugby-tv-game-card?style=for-the-badge
-[releases]: https://github.com/developpeurbox/ha-rugby-tv-game-card/releases
-[hacs-badge]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge
-[hacs]: https://github.com/hacs/integration
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
-[forum]: https://community.home-assistant.io/
-
-[commits]: https://github.com/developpeurbox/ha-rugby-tv-game-card/commits/main
-[hacs]: https://github.com/hacs/integration
-[hacsbadge]: https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge
-[exampleimg]: example.png
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
-[forum]: https://community.home-assistant.io/
-[releases-shield]: https://img.shields.io/github/v/release/developpeurbox/ha-rugby-tv-game-card?style=for-the-badge
-[releases]: https://github.com/developpeurbox/ha-rugby-tv-game-card/releases
-
