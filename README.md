@@ -21,7 +21,9 @@
 
 ### **Via HACS (recommandé)** 🔄
 1. Ajoutez ce dépôt à HACS :
-   **Dépôts personnalisés** → **Ajouter un dépôt personnalisé** → `https://github.com/developpeurbox/ha-rugby-tv-game-card/`
+   **Dépôts personnalisés** → **Ajouter un dépôt personnalisé**
+
+   → `https://github.com/developpeurbox/ha-rugby-tv-game-card/`
 
 ### **Ou manuellement** 🛠️
 1. Téléchargez le fichier depuis [les releases](https://github.com/developpeurbox/ha-rugby-tv-game-card/releases).
