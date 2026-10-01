@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/doc/images/example.png" alt="Exemple d'affichage" width="400"/>
+</p>
+
 # 🏉 **Rugby TV Game Card** 📺
 [![PayPal](https://img.shields.io/badge/paypal-me-blue.svg?style=for-the-badge&color=purple&logo=paypal&logoColor=ccc&link=https%3A%2F%2Fpaypal.me%2hlaissus/5)](https://paypal.me/hlaissus/5)
 [![GitHub Release]( https://img.shields.io/github/v/release/developpeurbox/hass-rugby-tv?style=for-the-badge&color=blue)](https://github.com/developpeurbox/hass-rugby-tv-game-card/releases)
@@ -11,25 +15,31 @@
 
 🔗 **Pour la création des capteurs (sensors)**, consultez [ce dépôt](https://github.com/developpeurbox/hass-rugby-tv).
 
-
-![Exemple Rugby Game Card](/doc/images/example.png "Exemple d'affichage")
-
-
 ---
 
-## 📥 **Installation**
+## 📦 Installation
 
-### **Via HACS (recommandé)** 🔄
-1. Ajoutez ce dépôt à HACS :
-   **Dépôts personnalisés** → **Ajouter un dépôt personnalisé**
+> [!TIP]
+> ### Installation Rapide via HACS
+> Cliquez sur le bouton ci-dessous pour ajouter automatiquement le dépôt dans HACS :
+>
+> [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=developpeurbox&repository=hass-rubgy-tv-game-card&category=integration)
 
-   → `https://github.com/developpeurbox/ha-rugby-tv-game-card/`
+### 🏗️ Méthode 1 : HACS (Recommandée)
 
-### **Ou manuellement** 🛠️
-1. Téléchargez le fichier depuis [les releases](https://github.com/developpeurbox/ha-rugby-tv-game-card/releases).
-2. Placez-le dans le dossier `/config/www/`.
+   1. Ouvrez **HACS** dans Home Assistant
+   2. Allez dans **Intégrations**
+   3. Cliquez sur les **3 points** en haut à droite → **Dépôts personnalisés**
+   4. Ajouter: [https://github.com/developpeurbox/hass-footao.git](https://github.com/developpeurbox/hass-rubgy-tv-game-card)
+   5. Catégorie **Tableau de bord**
+   6. Cherchez "**Rubgy TV Card**" et cliquez sur **Télécharger**
 
----
+
+### 🏗️ Méthode 2 : Manuelle
+  1. Téléchargez le fichier depuis [les releases](https://github.com/developpeurbox/ha-rubgy-tv-game-card/releases).
+  2. Placez-le dans le dossier `/config/www/`.
+
+
 ## 🎨 Carte `rugby-tv-game-card`
 
 Ajoutez simplement ce code dans votre configuration:
@@ -56,8 +66,10 @@ filter:
         method: attribute
         attribute: datetime
 ```
+<p align="center">
+  <img src="/doc/images/all.png" alt="Tous les matchs" width="400"/>
+</p>
 
-![Exemple Rugby Game Card](/doc/images/all.png "Tous les matchs")
 
 ### 🎨 Personnalisation
 
@@ -70,8 +82,9 @@ Vous pouvez désormais personnaliser l'apparence du pied de page (*footer*) dire
 ## 📭 **Aucun match prévu**
 
 Lorsque aucun match n'est trouvé pour l'équipe configurée (match passé ou calendrier vide), la carte affiche automatiquement un état simplifié : le logo de l'équipe, son nom, et un message d'information.
-
-![Carte aucun match](/doc/images/no_game.png "Affichage sans match prévu")
+<p align="center">
+  <img src="/doc/images/no_game.png" alt="Affichage sans match prév" width="400"/>
+</p>
 
 > **Aucun match prévu prochainement** s'affiche à la place des informations de diffusion habituelles. Dès qu'un prochain match est disponible dans le capteur, la carte reprend son affichage normal automatiquement.
 
