@@ -23,7 +23,7 @@
 > ### Installation Rapide via HACS
 > Cliquez sur le bouton ci-dessous pour ajouter automatiquement le dépôt dans HACS :
 >
-> [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=developpeurbox&repository=ha-rubgy-tv-game-card&category=dashboard)
+> [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/developpeurbox/ha-rugby-tv-game-card)
 
 ### 🏗️ Méthode 1 : HACS (Recommandée)
 
