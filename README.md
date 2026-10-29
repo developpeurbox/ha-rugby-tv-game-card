@@ -1,23 +1,31 @@
+> [!WARNING]
+> ### 📦 Dépôt archivé
+> **Cette carte est désormais incluse dans l'intégration [`hass-rugby-tv`](https://github.com/developpeurbox/hass-rugby-tv).** Ce dépôt n'est plus maintenu : installez simplement l'intégration, la carte `rugby-tv-game-card` est fournie avec.
+>
+> **Vous aviez installé cette carte séparément ?** Désinstallez-la dans HACS (Frontend) et supprimez l'ancienne ressource Lovelace pour éviter un doublon.
+
 <p align="center">
   <img src="/doc/images/example.png" alt="Exemple d'affichage" width="400"/>
 </p>
 
 # 🏉 **Rugby TV Game Card** 📺
-[![PayPal](https://img.shields.io/badge/paypal-me-blue.svg?style=for-the-badge&color=purple&logo=paypal&logoColor=ccc&link=https%3A%2F%2Fpaypal.me%2hlaissus/5)](https://paypal.me/hlaissus/5)
-[![GitHub Release]( https://img.shields.io/github/v/release/developpeurbox/hass-rugby-tv?style=for-the-badge&color=blue)](https://github.com/developpeurbox/hass-rugby-tv-game-card/releases)
+[![PayPal](https://img.shields.io/badge/paypal-me-blue.svg?style=for-the-badge&color=purple&logo=paypal&logoColor=ccc&link=https%3A%2F%2Fpaypal.me%2Fhlaissus%2F5)](https://paypal.me/hlaissus/5)
+[![GitHub Release](https://img.shields.io/github/v/release/developpeurbox/ha-rugby-tv-game-card?style=for-the-badge&color=blue)](https://github.com/developpeurbox/ha-rugby-tv-game-card/releases)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge&color=blue)](https://github.com/hacs/integration)
-[![Community Forum]( https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge&color=pink)](https://forum.hacf.fr/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/developpeurbox/hass-rugby-tv-game-card/blob/main/LICENSE)
+[![Community Forum](https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge&color=pink)](https://forum.hacf.fr/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-rugby-tv-game-card/blob/main/LICENSE)
 
-[![HACS Action](https://github.com/developpeurbox/ha-rugby-tv-game-card/actions/workflows/hacs.yml/badge.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-rugby-tv-game-card/actions/workflows/hacs.yml)  
+[![HACS Action](https://github.com/developpeurbox/ha-rugby-tv-game-card/actions/workflows/hacs.yml/badge.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-rugby-tv-game-card/actions/workflows/hacs.yml)
 
 **Carte Lovelace personnalisée pour afficher les matchs Rugby TV** avec les logos des équipes, la ou les chaînes TV et l'heure du coup d'envoi.
 
-🔗 **Pour la création des capteurs (sensors)**, consultez [ce dépôt](https://github.com/developpeurbox/hass-rugby-tv).
+🔗 **Les capteurs (sensors) et la carte** sont désormais fournis ensemble par [`hass-rugby-tv`](https://github.com/developpeurbox/hass-rugby-tv).
 
 ---
 
-## 📦 Installation
+## 📦 Installation (historique)
+
+> Ces instructions ne concernent que l'ancienne installation séparée. Pour une nouvelle installation, suivez le README de [`hass-rugby-tv`](https://github.com/developpeurbox/hass-rugby-tv).
 
 > [!TIP]
 > ### Installation Rapide via HACS
@@ -30,19 +38,18 @@
    1. Ouvrez **HACS** dans Home Assistant
    2. Allez dans **Intégrations**
    3. Cliquez sur les **3 points** en haut à droite → **Dépôts personnalisés**
-   4. Ajouter: [https://github.com/developpeurbox/ha-rubgy-tv-game-card](https://github.com/developpeurbox/ha-rubgy-tv-game-card)
+   4. Ajoutez : [https://github.com/developpeurbox/ha-rugby-tv-game-card](https://github.com/developpeurbox/ha-rugby-tv-game-card)
    5. Catégorie **Tableau de bord**
-   6. Cherchez "**Rubgy TV Card**" et cliquez sur **Télécharger**
-
+   6. Cherchez "**Rugby TV Card**" et cliquez sur **Télécharger**
 
 ### 🏗️ Méthode 2 : Manuelle
-  1. Téléchargez le fichier depuis [les releases](https://github.com/developpeurbox/ha-rubgy-tv-game-card/releases).
+  1. Téléchargez le fichier depuis [les releases](https://github.com/developpeurbox/ha-rugby-tv-game-card/releases).
   2. Placez-le dans le dossier `/config/www/`.
 
 
 ## 🎨 Carte `rugby-tv-game-card`
 
-Ajoutez simplement ce code dans votre configuration:
+Ajoutez simplement ce code dans votre configuration :
 
 ```yaml
 type: custom:rugby-tv-game-card
@@ -73,10 +80,10 @@ filter:
 
 ### 🎨 Personnalisation
 
-Vous pouvez désormais personnaliser l'apparence du pied de page (*footer*) directement via les options de la carte :
+Vous pouvez personnaliser l'apparence du pied de page (*footer*) directement via les options de la carte :
 
 * **Arrière-plan :** Modifiez `footer_bg` (accepte les formats **HEX**, **RGB** ou **RGBA**).
-* **Couleur du texte :** Ajustez `footer_color` pour assurer une visibilité optimale selon votre fond
+* **Couleur du texte :** Ajustez `footer_color` pour assurer une visibilité optimale selon votre fond.
 
 ---
 ## 📭 **Aucun match prévu**
